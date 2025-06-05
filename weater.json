@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/home/sahil/mcp_practice/mcpcrashcourse/server/weater.py"
+      ]
+    },
+    "stock": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/home/sahil/mcp_practice/mcpcrashcourse/server/stock.py"
+      ]
+    },
+
+
+    "medical": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/home/sahil/mcp_practice/mcpcrashcourse/server/medical.py"
+      ]
+    }
+
+    
+  }
+}
